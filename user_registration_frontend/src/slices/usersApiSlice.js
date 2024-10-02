@@ -1,6 +1,8 @@
 import { apiSlice } from './ApiSlice';
 
-const USERS_URL = 'http://localhost:5000/api/users';
+const USERS_URL = process.env.NODE_ENV === 'development'
+    ? 'http://localhost:5000/api/users'
+    : 'https://user-registration-server-one.vercel.app/api/users';
 
 export const usersApiSlice = apiSlice.injectEndpoints({
     endpoints: (builder) => ({

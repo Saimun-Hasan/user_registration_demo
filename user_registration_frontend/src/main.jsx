@@ -5,8 +5,8 @@ import { ToastContainer } from "react-toastify";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.jsx";
-import LoginView from "./pages/auth/register/LoginView.jsx";
-import RegisterView from "./pages/auth/register/registerView.jsx";
+import LoginView from "../src/pages/auth/register/LoginView.jsx";
+import RegisterView from "../src/pages/auth/register/RegisterView.jsx";
 import PrivateRoute from "./routes/components/PrivateRoutes.jsx";
 
 import store from "./store";
