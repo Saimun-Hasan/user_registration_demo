@@ -166,7 +166,7 @@ const LoginView = () => {
               Register Now
             </Link>
           </Typography>
-          <DevTool control={control} />
+          {/* <DevTool control={control} /> */}
         </Card>
       </Stack>
     </Box>

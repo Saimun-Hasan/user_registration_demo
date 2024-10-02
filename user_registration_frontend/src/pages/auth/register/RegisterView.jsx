@@ -213,7 +213,7 @@ const RegisterView = () => {
               Login Now
             </Link>
           </Typography>
-          <DevTool control={control} />
+          {/* <DevTool control={control} /> */}
         </Card>
       </Stack>
     </Box>
