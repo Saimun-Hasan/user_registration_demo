@@ -3,7 +3,7 @@ import * as Yup from "yup";
 import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import { DevTool } from "@hookform/devtools";
+// import { DevTool } from "@hookform/devtools";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useDispatch, useSelector } from "react-redux";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
@@ -57,7 +57,6 @@ const RegisterView = () => {
   const {
     register,
     handleSubmit,
-    control,
     formState: { errors },
   } = useForm({
     initialValues: {
